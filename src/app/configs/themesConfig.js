@@ -15,6 +15,11 @@ export const darkPaletteText = {
 
 const themesConfig = {
   default: {
+    typography: {
+      fontFamily: [
+        'Vazirmatn'
+      ].join(',')
+    },
     palette: {
       mode: 'light',
       divider: '#e2e8f0',

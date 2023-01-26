@@ -1,0 +1,3 @@
+const Icons = {
+    iranFlag: "/assets/"
+}

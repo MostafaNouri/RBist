@@ -15,6 +15,10 @@ import FuseAuthorization from '@fuse/core/FuseAuthorization';
 import settingsConfig from 'app/configs/settingsConfig';
 import withAppProviders from './withAppProviders';
 import { AuthProvider } from './auth/AuthContext';
+import i18next from "i18next";
+import Translation from "./common/Translation";
+import en from "./common/i18n/en";
+import fa from "./common/i18n/fa";
 
 // import axios from 'axios';
 /**
@@ -36,6 +40,9 @@ const emotionCacheOptions = {
     insertionPoint: document.getElementById('emotion-insertion-point'),
   },
 };
+
+i18next.addResourceBundle('en', Translation.Common, en);
+i18next.addResourceBundle('fa', Translation.Common, fa);
 
 const App = () => {
   const user = useSelector(selectUser);

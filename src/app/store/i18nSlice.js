@@ -1,5 +1,5 @@
 import { createSelector, createSlice } from '@reduxjs/toolkit';
-import i18n from 'src/i18n';
+import i18n from '../../i18n';
 import { setDefaultSettings } from './fuse/settingsSlice';
 
 export const changeLanguage = (languageId) => (dispatch, getState) => {
@@ -27,9 +27,8 @@ const i18nSlice = createSlice({
   initialState: {
     language: i18n.options.lng,
     languages: [
-      { id: 'en', title: 'English', flag: 'US' },
-      { id: 'tr', title: 'Turkish', flag: 'TR' },
-      { id: 'ar', title: 'Arabic', flag: 'SA' },
+      { id: 'en', title: 'english', flag: 'US' },
+      { id: 'fa', title: 'persian', flag: 'IR' },
     ],
   },
   reducers: {
