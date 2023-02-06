@@ -1,3 +1,9 @@
+const svgIcon = (name) => `assets/icons/${name}.svg`;
+
 const Icons = {
-    iranFlag: "/assets/"
+    Telegram: svgIcon("telegram"),
+    Whatsapp: svgIcon("whatsapp"),
+    Instagram: svgIcon("instagram")
 }
+
+export default Icons;

@@ -8,8 +8,9 @@ import SignOutConfig from '../main/sign-out/SignOutConfig';
 import Error404Page from '../main/404/Error404Page';
 import MainConfig from "../main/MainConfig";
 import AboutUsConfig from "../plugins/about-us/AboutUsConfig";
+import ContactUsConfig from "../plugins/contact-us/ContactUsConfig";
 
-const routeConfigs = [MainConfig, AboutUsConfig, SignOutConfig, SignInConfig, SignUpConfig];
+const routeConfigs = [MainConfig, AboutUsConfig, ContactUsConfig, SignOutConfig, SignInConfig, SignUpConfig];
 
 const routes = [
   ...FuseUtils.generateRoutesFromConfigs(routeConfigs, settingsConfig.defaultAuth),
