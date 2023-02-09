@@ -29,15 +29,15 @@ const themesConfig = {
         white: 'rgb(255, 255, 255)',
       },
       primary: {
-        light: '#64748b',
-        main: '#1e293b',
-        dark: '#0f172a',
+        light: '#42a5f5',
+        main: '#1976d2',
+        dark: '#1565c0',
         contrastText: darkPaletteText.primary,
       },
       secondary: {
-        light: '#818cf8',
-        main: '#4f46e5',
-        dark: '#3730a3',
+        light: '#ba68c8',
+        main: '#9c27b0',
+        dark: '#7b1fa2',
         contrastText: darkPaletteText.primary,
       },
       background: {
@@ -45,9 +45,9 @@ const themesConfig = {
         default: '#f1f5f9',
       },
       error: {
-        light: '#ffcdd2',
-        main: '#f44336',
-        dark: '#b71c1c',
+        light: '#ef5350',
+        main: '#d32f2f',
+        dark: '#c62828',
       },
     },
     status: {

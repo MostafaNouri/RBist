@@ -104,16 +104,16 @@ export const defaultThemeOptions = {
           // lineHeight: 1,
         },
         sizeMedium: {
-          borderRadius: 20,
-          height: 40,
-          minHeight: 40,
-          maxHeight: 40,
+          // borderRadius: 20,
+          // height: 40,
+          // minHeight: 40,
+          // maxHeight: 40,
         },
         sizeSmall: {
-          borderRadius: '15px',
+          // borderRadius: '15px',
         },
         sizeLarge: {
-          borderRadius: '28px',
+          // borderRadius: '28px',
         },
         contained: {
           boxShadow: 'none',
@@ -125,11 +125,11 @@ export const defaultThemeOptions = {
     },
     MuiButtonGroup: {
       defaultProps: {
-        color: 'secondary',
+        // color: 'secondary',
       },
       styleOverrides: {
         contained: {
-          borderRadius: 18,
+          // borderRadius: 18,
         },
       },
     },
@@ -143,7 +143,7 @@ export const defaultThemeOptions = {
     MuiDialog: {
       styleOverrides: {
         paper: {
-          borderRadius: 16,
+          // borderRadius: 16,
         },
       },
     },
@@ -153,14 +153,14 @@ export const defaultThemeOptions = {
           backgroundImage: 'none',
         },
         rounded: {
-          borderRadius: 16,
+          // borderRadius: 16,
         },
       },
     },
     MuiPopover: {
       styleOverrides: {
         paper: {
-          borderRadius: 8,
+          // borderRadius: 8,
         },
       },
     },
@@ -187,15 +187,15 @@ export const defaultThemeOptions = {
     MuiInputBase: {
       styleOverrides: {
         root: {
-          minHeight: 40,
-          lineHeight: 1,
+          // minHeight: 40,
+          // lineHeight: 1,
         },
       },
     },
     MuiFilledInput: {
       styleOverrides: {
         root: {
-          borderRadius: 4,
+          // borderRadius: 4,
           '&:before, &:after': {
             display: 'none',
           },
@@ -232,6 +232,13 @@ export const defaultThemeOptions = {
         },
       ],
     },
+    MuiTooltip: {
+      styleOverrides: {
+        popper: {
+          zIndex: 15000 + '!important',
+        }
+      },
+    }
   },
 };
 
@@ -240,10 +247,10 @@ export const mustHaveThemeOptions = {
     htmlFontSize: 10,
     fontSize: 14,
     body1: {
-      fontSize: '1.4rem',
+      fontSize: 14,
     },
     body2: {
-      fontSize: '1.4rem',
+      fontSize: 14,
     },
   },
 };

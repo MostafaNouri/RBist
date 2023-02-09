@@ -7,6 +7,14 @@ i18next.addResourceBundle('fa', 'navigation', fa);
 
 const navigationConfig = [
     {
+        id: 'login',
+        title: 'Login',
+        translate: 'loginOrRegister',
+        type: 'item',
+        icon: 'material-solid:login',
+        url: 'login',
+    },
+    {
         id: 'about-us',
         title: 'Main',
         translate: 'aboutUs',

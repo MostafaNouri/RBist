@@ -1,20 +1,7 @@
-import {
-    Box,
-    Button,
-    Card,
-    CardActionArea,
-    CardActions,
-    CardContent,
-    CardMedia,
-    IconButton,
-    Typography
-} from "@mui/material";
+import {Box, Card, CardContent, CardMedia, Typography} from "@mui/material";
 import {useTranslation} from "react-i18next";
 import Translation from "../../../common/Translation";
 import {makeStyles} from "@mui/styles";
-import CustomIcon from "../../../shared-components/CustomIcon";
-import Icons from "../../../common/Icons";
-import CustomTooltip from "../../../shared-components/CustomTooltip";
 
 const useStyles = makeStyles(() => ({
     aboutUsBox: {
@@ -106,19 +93,6 @@ const AboutUs = () => {
                             {t("aboutHabib")}
                         </Typography>
                     </CardContent>
-                    <CardActions>
-                        <CustomTooltip title={t("telegram")}>
-                            <IconButton size="small">
-                                <CustomIcon icon={Icons.Telegram} color="#29b6f6"/>
-                            </IconButton>
-                        </CustomTooltip>
-                        <IconButton size="small">
-                            <CustomIcon icon={Icons.Whatsapp} color="#40c351"/>
-                        </IconButton>
-                        <IconButton size="small">
-                            <CustomIcon icon={Icons.Instagram} color="#f50057"/>
-                        </IconButton>
-                    </CardActions>
                 </Card>
 
                 <Card sx={{width: 400}} className={classes.card}>
@@ -136,19 +110,6 @@ const AboutUs = () => {
                             {t("aboutMostafa")}
                         </Typography>
                     </CardContent>
-                    <CardActions>
-                        <CustomTooltip title={t("telegram")}>
-                            <IconButton size="small">
-                                <CustomIcon icon={Icons.Telegram} color="#29b6f6"/>
-                            </IconButton>
-                        </CustomTooltip>
-                        <IconButton size="small">
-                            <CustomIcon icon={Icons.Whatsapp} color="#40c351"/>
-                        </IconButton>
-                        <IconButton size="small">
-                            <CustomIcon icon={Icons.Instagram} color="#f50057"/>
-                        </IconButton>
-                    </CardActions>
                 </Card>
 
                 <Card sx={{width: 400}} className={classes.card}>
@@ -166,19 +127,6 @@ const AboutUs = () => {
                             {t("aboutFilip")}
                         </Typography>
                     </CardContent>
-                    <CardActions>
-                        <CustomTooltip title={t("telegram")}>
-                            <IconButton size="small">
-                                <CustomIcon icon={Icons.Telegram} color="#29b6f6"/>
-                            </IconButton>
-                        </CustomTooltip>
-                        <IconButton size="small">
-                            <CustomIcon icon={Icons.Whatsapp} color="#40c351"/>
-                        </IconButton>
-                        <IconButton size="small">
-                            <CustomIcon icon={Icons.Instagram} color="#f50057"/>
-                        </IconButton>
-                    </CardActions>
                 </Card>
             </Box>
         </>
